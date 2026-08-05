@@ -9,7 +9,7 @@ def print_diamond_pattern(n: int) -> None:
         for k in range(int(median) +i, n):
             print("*",end="")
         print("")
-    for i in range(int(median)-1,0,-1):
+    for i in range(int(median)-2,0,-1):
         # print(int(median)-i)
         for k in range(1,int(median)-i+1):
             print("*",end="")

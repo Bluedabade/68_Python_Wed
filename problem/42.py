@@ -7,6 +7,6 @@ def calculate_jumps(d, s):
         else:
             return(d //s +1)
 
-d = 22
+d = 20
 s = 7
 print(calculate_jumps(d, s))
